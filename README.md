@@ -1,4 +1,4 @@
-# 📉 Customer Churn Analysis & Prediction
+# Customer Churn Analysis & Prediction
 
 ![Python](https://img.shields.io/badge/Python-3.13-blue?logo=python) ![MySQL](https://img.shields.io/badge/MySQL-8.0-orange?logo=mysql) ![PowerBI](https://img.shields.io/badge/Power%20BI-Dashboard-yellow?logo=powerbi) ![scikit-learn](https://img.shields.io/badge/scikit--learn-ML-red?logo=scikit-learn) ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
@@ -6,7 +6,7 @@
 
 ---
 
-## 👤 Author
+## Author
 
 **Rounak Kumar Tilante**
 - GitHub: [@rounak2601](https://github.com/rounak2601)
@@ -14,13 +14,13 @@
 
 ---
 
-## 📊 Dashboard Preview
+## Dashboard Preview
 
 ![Customer Churn Dashboard](Dashboard.png)
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 Customer churn — when a customer stops using a service — is one of the most critical business problems in the telecom industry. This project identifies **why customers churn**, **who is most at risk**, and **what actions can reduce churn**, backed by data.
 
@@ -30,21 +30,21 @@ Customer churn — when a customer stops using a service — is one of the most 
 
 ---
 
-## 🎯 Key Business Insights
+## Key Business Insights
 
 | Finding | Insight |
 |---|---|
-| 📊 Overall Churn Rate | **26.58%** of customers churned |
-| 📋 Contract Risk | Month-to-month customers churn at **42.71%** vs 2.85% for two-year contracts — a **15x difference** |
-| 🕐 Tenure Risk | **47.68%** of customers churn in their first 12 months |
-| 🔧 Tech Support | Customers without tech support churn at **41.65%** vs 15.20% |
-| 🌐 Internet Service | **69.4%** of churned customers used Fiber optic |
-| 💳 Payment Method | Electronic check users have the highest churn count (**2,365**) |
-| 💰 Revenue at Risk | **$2.86M** total revenue lost \| **$139.13K** monthly revenue at risk |
+| Overall Churn Rate | **26.58%** of customers churned |
+| Contract Risk | Month-to-month customers churn at **42.71%** vs 2.85% for two-year contracts — a **15x difference** |
+| Tenure Risk | **47.68%** of customers churn in their first 12 months |
+| Tech Support | Customers without tech support churn at **41.65%** vs 15.20% |
+| Internet Service | **69.4%** of churned customers used Fiber optic |
+| Payment Method | Electronic check users have the highest churn count (**2,365**) |
+| Revenue at Risk | **$2.86M** total revenue lost \| **$139.13K** monthly revenue at risk |
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Tool | Purpose |
 |---|---|
@@ -56,7 +56,7 @@ Customer churn — when a customer stops using a service — is one of the most 
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 customer-churn-analysis/
@@ -79,7 +79,7 @@ customer-churn-analysis/
 
 ---
 
-## 🗄️ Phase 1 — SQL Analysis (MySQL)
+## Phase 1 — SQL Analysis (MySQL)
 
 Loaded 7,032 records into MySQL and ran exploratory queries to uncover business insights.
 
@@ -98,13 +98,13 @@ ORDER BY churn_rate DESC;
 
 ---
 
-## 🐍 Phase 2 — Python Analysis & ML Model
+## Phase 2 — Python Analysis & ML Model
 
 ### Machine Learning Results
 
 | Model | Accuracy | AUC Score |
 |---|---|---|
-| Logistic Regression | 78.54% | **0.83** ⭐ |
+| Logistic Regression | 78.54% | **0.83**  |
 | Random Forest | 79.25% | 0.81 |
 
 ### Top 5 Churn Drivers (Random Forest Feature Importance)
@@ -116,7 +116,7 @@ ORDER BY churn_rate DESC;
 
 ---
 
-## 💡 Business Recommendations
+## Business Recommendations
 
 1. **Target Month-to-Month Customers** — Offer incentives to switch to annual plans. Could cut churn by up to 40%.
 2. **Improve Early Onboarding** — 47.68% churn in first 12 months. Implement 30/60/90-day check-ins.
@@ -127,7 +127,7 @@ ORDER BY churn_rate DESC;
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 ```bash
 git clone https://github.com/rounak2601/customer-churn-analysis.git
